@@ -1,0 +1,14 @@
+{
+  "name": "eslint-root-dirs-issue",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.6.11",
+  "license": "MIT",
+  "scripts": {
+    "lint": "nx run-many -t lint"
+  },
+  "devDependencies": {
+    "nx": "17.0.2"
+  }
+}

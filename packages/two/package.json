@@ -1,0 +1,16 @@
+{
+  "name": "@eslint-root-dirs-issue/two",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eslint-root-dirs-issue/one": "workspace:^"
+  },
+  "devDependencies": {
+    "@eslint-root-dirs-issue/eslint-config": "workspace:^",
+    "@eslint-root-dirs-issue/typescript-config": "workspace:^"
+  }
+}
