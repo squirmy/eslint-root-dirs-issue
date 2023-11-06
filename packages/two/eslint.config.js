@@ -21,7 +21,8 @@ export default [
         },
         rules: {
             ...pluginTs.configs['eslint-recommended'].overrides[0].rules,
-            ...pluginTs.configs.strict.rules
+            ...pluginTs.configs.strict.rules,
+            '@typescript-eslint/no-unsafe-assignment': 'error',
         }
     }
 ]
