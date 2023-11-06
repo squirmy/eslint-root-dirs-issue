@@ -6,10 +6,12 @@
   "module": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint src/index.ts"
   },
   "devDependencies": {
-    "@eslint-root-dirs-issue/eslint-config": "workspace:^",
-    "@eslint-root-dirs-issue/typescript-config": "workspace:^"
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2"
   }
 }

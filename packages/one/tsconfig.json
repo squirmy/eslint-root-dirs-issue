@@ -1,12 +1,24 @@
 {
-  "extends": [
-    "@eslint-root-dirs-issue/typescript-config/tsconfig.json"
-  ],
   "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
     "rootDirs": [
       ".",
       "./types"
-    ]
+    ],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "exactOptionalPropertyTypes": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
   },
   "include": [
     "./types/**/*.d.ts",
